@@ -33,7 +33,15 @@
 </head>
 
 <body class="container mx-auto mt-10 mb-10 max-w-lg">
-  @livewire('create-poll')
+  <div>
+    <h2 class="mb-2 mt-2 text-lg font-bold">Create Poll</h2>
+    @livewire('create-poll')
+  </div>
+  
+  <div>
+    <h2 class="mb-2 mt-2 text-lg font-bold">Available Polls</h2>
+    @livewire('polls')
+  </div>
   
   
   @livewireScripts
